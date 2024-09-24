@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    background-color: #141414;
+}
+.inputbox{
+    width: 100%;
+    background-color: #141414;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.inputbox input{
+flex:1;
+padding:10px;
+border:none;
+outline:none;
+background-color: transparent;
+color:#fff;
+background-color: #464242;
+font-size: 16px;
+border-radius: 5px;
+}
+.lightMode{
+    background-color: #fff !important;
+    color:#141414;
+    
+}
+.lightMode .tabs{
+    background-color: white;
+    color:black;
+}
+.lightMode .tab{
+    background-color: #beb8b8;
+}
+.lightMode .title{
+    color:#141414
+}
+.lightMode .icon {
+    background-color: #beb8b8;
+}
+.lightMode .down {
+    background-color: #beb8b8;
+}
